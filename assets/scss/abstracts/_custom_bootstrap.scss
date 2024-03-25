@@ -1,0 +1,14 @@
+$custom-colors: (
+  
+  "background":$background,
+  "principal":$principal,
+  "second":$second,
+  "third":$third,
+  "light-brown":$light-brown,
+  "blue-sky":$blue-sky,
+  "water-green":$water-green,
+  "moss-green":$moss-green,
+  "earth":$earth, 
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);

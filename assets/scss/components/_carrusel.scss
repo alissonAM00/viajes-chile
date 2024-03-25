@@ -1,0 +1,18 @@
+.carouselExample .carrousel-item {
+    height: 300px;
+}
+
+@media(min-width:992px) {
+    .carouselExample .carrousel-item {
+        height: 500px;
+    }
+
+}
+
+/* @media(max-width:1200px){
+    .carousel-inner{
+        max-height: 500px;
+        min-height: 300px;
+    }
+}
+ */
